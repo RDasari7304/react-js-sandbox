@@ -44,9 +44,9 @@ export default function Navbar(props) {
           (isActive ? "font-bold text-white-900" : "font-semibold text-gray-500")}}>
             Employees
           </NavLink>
-          <NavLink to="/Dictionary" className={({isActive}) => {return "no-underline text-sm font-semibold leading-6 " + 
+          <NavLink to="/Definition" className={({isActive}) => {return "no-underline text-sm font-semibold leading-6 " + 
           (isActive ? "font-bold text-white-900" : "font-semibold text-gray-500")}}>
-            Dictionary
+            Definitions
           </NavLink>
           <NavLink to="/Discussions" className={({isActive}) => {return "no-underline text-sm font-semibold leading-6 " + 
           (isActive ? "font-bold text-white-900" : "font-semibold text-gray-500")}}>
